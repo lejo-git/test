@@ -30,3 +30,14 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Testing Code Chunks
+
+My **sample** code to *check* how it works:
+
+```{r}
+print("Hello World!")
+var <- matrix(c(1,2,3,4,5,6,7,8),nrow=4,ncol=2)
+print(var)
+```
+
